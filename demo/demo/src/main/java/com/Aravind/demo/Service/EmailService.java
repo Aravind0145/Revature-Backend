@@ -18,7 +18,6 @@ public class EmailService {
         message.setSubject(subject);
         message.setText(text);
         message.setFrom("betharasiaravind123@gmail.com"); // Replace with your email address
-
         mailSender.send(message);
     }
 }
